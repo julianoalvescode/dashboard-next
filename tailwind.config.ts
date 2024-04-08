@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        juliano: "#FF0000",
+      },
+      maxWidth: {
+        app: "700px",
+      },
+      gridTemplateColumns: {
+        app: "minmax(18rem, 20rem) 1fr",
       },
     },
   },
