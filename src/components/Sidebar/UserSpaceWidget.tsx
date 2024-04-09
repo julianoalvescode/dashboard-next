@@ -5,10 +5,6 @@ export function UserSpaceWidget() {
   return (
     <>
       <div className="mt-auto flex flex-col gap-6">
-        <nav className="space-y-0.5">
-          <NavItem title="Support" icon={LifeBuoy} />
-          <NavItem title="Settings" icon={Cog} />
-        </nav>
         <div className="flex flex-col gap-4 rounded-lg bg-violet-50 px-4 py-5">
           <div className="space-y-1">
             <span className="text-sm/5 font-medium leading-5 text-violet-700">
