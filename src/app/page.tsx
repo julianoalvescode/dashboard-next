@@ -42,7 +42,7 @@ export default function Home() {
             </label>
             <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2">
               <Input.Root>
-                <Input.Control id="firstName" defaultValue="Diego" />
+                <Input.Control id="firstName" defaultValue="Juliano" />
               </Input.Root>
 
               <div className="flex flex-col gap-3 lg:block">

@@ -26,8 +26,8 @@ export function Sidebar() {
       <div className="flex items-center justify-between">
         <Logo />
         <Collapsible.Trigger asChild className="lg:hidden">
-          <Button variant="ghost">
-            <Menu className="h-6 w-6" />
+          <Button variant="ghost" className="lg:hidden">
+            <Menu className="h-6 w-6 text-zinc-500" />
           </Button>
         </Collapsible.Trigger>
       </div>
