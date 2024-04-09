@@ -141,42 +141,27 @@ export default function Home() {
                 </Select>
                 <div className="flex items-center gap-1">
                   <div>
-                    <button
-                      type="button"
-                      className="rounded-md p-2 hover:bg-zinc-50"
-                    >
+                    <Button type="button" variant="ghost">
                       <Bold className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                    </button>
-                    <button
-                      type="button"
-                      className="rounded-md p-2 hover:bg-zinc-50"
-                    >
+                    </Button>
+                    <Button type="button" variant="ghost">
                       <Italic
                         className="w-4 h-4 text-zinc-500"
                         strokeWidth={3}
                       />
-                    </button>
-                    <button
-                      type="button"
-                      className="rounded-md p-2 hover:bg-zinc-50"
-                    >
+                    </Button>
+                    <Button type="button" variant="ghost">
                       <Link className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                    </button>
-                    <button
-                      type="button"
-                      className="rounded-md p-2 hover:bg-zinc-50"
-                    >
+                    </Button>
+                    <Button type="button" variant="ghost">
                       <List className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                    </button>
-                    <button
-                      type="button"
-                      className="rounded-md p-2 hover:bg-zinc-50"
-                    >
+                    </Button>
+                    <Button type="button" variant="ghost">
                       <ListOrdered
                         className="w-4 h-4 text-zinc-500"
                         strokeWidth={3}
                       />
-                    </button>
+                    </Button>
                   </div>
                 </div>
               </div>
