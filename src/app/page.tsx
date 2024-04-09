@@ -44,11 +44,11 @@ export default function Home() {
             </label>
             <div className="grid grid-cols-2 gap-6">
               <Input.Root>
-                <Input.Control id="firstName" defaultValue="Diego" />
+                <Input.Control id="firstName" defaultValue="Juliano" />
               </Input.Root>
 
               <Input.Root>
-                <Input.Control defaultValue="Fernandes" />
+                <Input.Control defaultValue="Alves" />
               </Input.Root>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Home() {
               <Input.Control
                 id="email"
                 type="email"
-                defaultValue="diego@rocketseat.com.br"
+                defaultValue="contato@julianoalves.me"
               />
             </Input.Root>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
               Role
             </label>
             <Input.Root>
-              <Input.Control id="role" defaultValue="CTO" />
+              <Input.Control id="role" defaultValue="Software Engineer SR" />
             </Input.Root>
           </div>
 
