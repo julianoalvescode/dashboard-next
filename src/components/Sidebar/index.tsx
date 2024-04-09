@@ -38,7 +38,7 @@ export function Sidebar() {
       >
         <Input.Root>
           <Input.Prefix>
-            <Search className="h-5 w-5 to-zinc-500" />
+            <Search className="h-5 w-5 text-zinc-500" />
           </Input.Prefix>
           <Input.Control placeholder="Search" />
         </Input.Root>
@@ -60,7 +60,7 @@ export function Sidebar() {
 
           <UserSpaceWidget />
 
-          <div className="h-px bg-zinc-200" />
+          <div className="h-px bg-zinc-200 dark:bg-zinc-700" />
 
           <Profile />
         </div>
