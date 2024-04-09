@@ -11,10 +11,10 @@ export function Profile() {
           alt="Juliano Alves"
         />
         <div className="flex flex-col truncate">
-          <span className="text-sm font-semibold text-zinc-700">
+          <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
             Juliano Alves
           </span>
-          <span className="truncate text-sm text-zinc-500">
+          <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
             contato@julianoalves.me
           </span>
         </div>
